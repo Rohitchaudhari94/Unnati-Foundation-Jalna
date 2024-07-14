@@ -16,10 +16,7 @@ footer {
     padding: 20px;
     text-align: center; 
 }
-
-.footer-logo{
-position:fixed;
-}
+
 .footer-logo img {
     max-width: 65%;
     height: auto;
