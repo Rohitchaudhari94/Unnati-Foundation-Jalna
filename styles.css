@@ -106,20 +106,32 @@ button:hover {
     color: #333;
 }
 
+.memories-section {
+    margin-bottom: 20px;
+}
+
 .memories-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
 }
 
-.memories-gallery img {
-    max-width: calc(33% - 10px);
-    height: auto;
+.memory-item {
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    margin: 10px;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
+.memory-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .footer-info {
     margin-top: 20px;
 }
