@@ -18,10 +18,10 @@ footer {
 }
 
 .footer-logo img {
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
     display: block;
-    margin: 0 auto 10px;
+    margin: 0 auto 2px;
 }
 
 .inquiry-form, .staff-section {
