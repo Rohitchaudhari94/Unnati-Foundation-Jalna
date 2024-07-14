@@ -14,11 +14,12 @@ footer {
     background-color: #34495e;
     color: #ecf0f1;
     padding: 20px;
-    text-align: center;
-    position:fixed;
-    
+    text-align: center; 
 }
 
+.footer-logo{
+position:fixed;
+}
 .footer-logo img {
     max-width: 65%;
     height: auto;
