@@ -16,6 +16,11 @@ footer {
     padding: 20px;
     text-align: center; 
 }
+
+.footer{
+position:fixed;
+background-color:#2980b9; 
+}
 
 .footer-logo img {
     max-width: 65%;
